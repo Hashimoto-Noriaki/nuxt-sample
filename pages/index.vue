@@ -89,5 +89,10 @@ export default {
     Logo,
     VuetifyLogo,
   },
+
+  mounted() {
+    const foo = 'foo'
+    console.log(foo)
+  },
 }
 </script>
