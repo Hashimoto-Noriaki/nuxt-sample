@@ -91,8 +91,8 @@ export default {
   },
 
   mounted() {
-    const foo = 'foo'
-    console.log(foo)
+    const piko = 'piko'
+    console.log(piko)
   },
 }
 </script>
