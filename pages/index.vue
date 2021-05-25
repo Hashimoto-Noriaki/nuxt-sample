@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" module>
 .container {
   .number {
     font-size: 70px;
