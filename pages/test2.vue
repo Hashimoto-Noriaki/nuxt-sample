@@ -21,15 +21,17 @@ export default {
     }
   },
   async created() {
-    try {
-      const response = await this.$axios.get(
-        'http://jsonplaceholder.typicode.com/userssssss'
-      )
-      console.log(response)
-    } catch (err) {
-      const res = err.response
-      console.log(res)
-    }
+    // try {
+    //   const response = await this.$axios.get(
+    //     'http://jsonplaceholder.typicode.com/users'
+    //   )
+    //   console.log(response)
+    // } catch (err) {
+    //   const res = err.response
+    //   console.log(res)
+    // } finally {
+    //   //ここに共通の最終処理をかく
+    // }
     // console.log(response)
   },
 
