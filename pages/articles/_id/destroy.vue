@@ -1,12 +1,12 @@
 <template>
-  <div>編集ページ</div>
+  <div>削除ページ</div>
 </template>
 
 <script>
 export default {
   mounted() {
-    const piko = 'piko'
-    console.log(piko)
+    const poo = '猫'
+    console.log(poo)
   },
 }
 </script>
