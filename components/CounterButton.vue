@@ -1,6 +1,6 @@
 <template>
   <v-btn class="mx-1" fab dark :color="color" @click="click">
-    <v-icon dark> mdi-{{ kind }}</v-icon>
+    <v-icon dark> mdi-{{ kind }} </v-icon>
   </v-btn>
 </template>
 
@@ -13,7 +13,7 @@ export default {
     },
     color: {
       type: String,
-      default: 'blue',
+      default: 'pink',
     },
   },
   methods: {
