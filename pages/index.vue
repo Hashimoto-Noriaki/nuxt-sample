@@ -45,19 +45,12 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.number {
-  font-size: 80px;
+<style lang="scss" scoped>
+.container {
+  .number {
+    font-size: 80px;
+  }
 }
-
-// .button {
-//   font-size: 40px;
-//   font-weight: 30px;
-//   border: 2px solid gray;
-//   width: 60px;
-//   height: 60px;
-//   border-radius: 6px;
-// }
 </style>
 
 <!-- <div class="container"> -->
