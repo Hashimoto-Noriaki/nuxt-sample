@@ -7,7 +7,6 @@
       <div>名前:{{ user.name }}</div>
       <div>メールアドレス:{{ user.email }}</div>
       <div>電話:{{ user.phone }}</div>
-      <div>住所:{{ user.address }}</div>
     </div>
   </div>
 </template>
@@ -21,14 +20,17 @@ export default {
     }
   },
 
-  created() {
-    console.log('created')
-
-    this.$axios
-      .get('http://jsonplaceholder.typicode.com/users')
-      .then((response) => {
-        this.users = response.data
-      })
+  async created() {
+    try {
+      const response = await this.$axios.get(
+        'http://jsonplaceholder.typicode.com/us'
+      )
+      console.log(response)
+    } catch (err) {
+      const res = err.response
+      console.log(res)
+    }
+    // console.log(response)
   },
 
   mounted() {
